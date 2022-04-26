@@ -1,8 +1,15 @@
-import './App.scss';
+import ContactDetails from './components/ContactDetails';
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import './styles/App.scss';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <>
+      <Header />
+      <Dashboard />
+      <ContactDetails />
+    </>
   );
 }
 

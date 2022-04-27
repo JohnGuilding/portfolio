@@ -1,6 +1,8 @@
+import './../styles/ContactDetails.scss'
+
 const ContactDetails = () => {
     return (
-        <footer>
+        <footer className='contact-details'>
             <div>GitHub</div>
             <div>Twitter</div>
             <div>LinkedIn</div>

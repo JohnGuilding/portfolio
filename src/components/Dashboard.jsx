@@ -1,3 +1,4 @@
+import './../styles/Dashboard.scss'
 import Card from './Card';
 
 const Dashboard = () => {
@@ -23,7 +24,7 @@ const Dashboard = () => {
     ));
 
     return (
-        <main>
+        <main className='dashboard'>
             {cardList}
         </main>
     );

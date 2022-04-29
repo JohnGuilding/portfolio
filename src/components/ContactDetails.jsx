@@ -5,16 +5,28 @@ import './../styles/ContactDetails.scss';
 const ContactDetails = () => {
     return (
         <footer className='contact-details'>
-            <a href=''>
-                <span>GitHub</span>
+            <a 
+                href='https://github.com/johnguilding'
+                target='_blank'
+                rel='noreferrer'
+                className='contact-details__icon'
+            >
                 <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href=''>
-                <span>Twitter</span>
+            <a 
+                href='https://twitter.com/solleio'
+                target='_blank'
+                rel='noreferrer'
+                className='contact-details__icon'
+            >
             <FontAwesomeIcon icon={faTwitterSquare} />
             </a>
-            <a href=''>
-                <span>LinkedIn</span>
+            <a 
+                href='http://linkedin.com/in/johnguilding'
+                target='_blank'
+                rel='noreferrer'
+                className='contact-details__icon'
+            >
                 <FontAwesomeIcon icon={faGithubSquare} />
             </a>
         </footer>

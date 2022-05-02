@@ -11,7 +11,7 @@ const ContactDetails = () => {
                 rel='noreferrer'
                 className='contact-details__icon'
             >
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faGithubSquare} />
             </a>
             <a 
                 href='https://twitter.com/solleio'
@@ -27,7 +27,7 @@ const ContactDetails = () => {
                 rel='noreferrer'
                 className='contact-details__icon'
             >
-                <FontAwesomeIcon icon={faGithubSquare} />
+                <FontAwesomeIcon icon={faLinkedin} />
             </a>
         </footer>
     );
